@@ -12,6 +12,7 @@ disqus:
 
 
 header_pages:
+- index.md
 - course-free/index.md
 
 plugins:
