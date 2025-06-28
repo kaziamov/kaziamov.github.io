@@ -1,6 +1,12 @@
-theme: minima
 title: Home
 author: Ilia Kaziamov
 description:
+
+remote_theme: b2a3e8/jekyll-theme-console
+style: light
+
 disqus:
   shortname: kaziamov-github-com
+
+  header_pages:
+  - course-free/index.md
