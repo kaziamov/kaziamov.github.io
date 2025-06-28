@@ -1,4 +1,8 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-hHBn1znfwM" title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen></iframe>
+---
+title: "Задача на модуль"
+task: "Написать первую часть кода"
+code: https://github.com/kaziamov/python-free-course/blob/main/python-basic/0/0_starter.py
+youtube: -hHBn1znfwM
+layout: lesson
+comments: true
+---
