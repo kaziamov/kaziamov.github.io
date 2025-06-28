@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    {%- include head.html -%}
+  </head>
+  <body>
+    <div class="container">
+      {%- include header.html -%}
+      <main>
+        <h1>Задание</h1>
+        {{ page.task }}
+
+        <h2>Код</h2>
+        <a href="{{ page.code }}">{{ page.code }}</a>
+
+        <h1>Решение</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+      </main>
+      {%- include footer.html -%}
+    </div>
+  </body>
+</html>
