@@ -12,5 +12,5 @@ disqus:
   - course-free/index.md
 
 content_security_policy:
-  child-src: "'self' https://www.youtube.com/"
+  child-src: "'self' "
   frame-src: "https://www.youtube.com/"
