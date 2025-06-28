@@ -2,7 +2,7 @@ title: Home
 author: Ilia Kaziamov
 description:
 
-remote_theme: b2a3e8/jekyll-theme-console
+theme: jekyll-theme-console
 style: light
 
 disqus:
