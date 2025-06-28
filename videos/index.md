@@ -1,1 +1,0 @@
-* [Как исправить SyntaxError в Python](videos/1.md)
