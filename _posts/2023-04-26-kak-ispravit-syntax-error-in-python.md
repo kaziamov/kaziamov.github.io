@@ -2,6 +2,7 @@
 title: "Как исправить SyntaxError в Python"
 date: 2023-04-26
 tag: python, syntax-error, tutorial, beginner, video
+comment: true
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-clE1ZllctI" title="YouTube video player"
