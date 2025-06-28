@@ -4,7 +4,7 @@ description:
 lang : ru
 
 remote_theme: b2a3e8/jekyll-theme-console
-style: light
+style: hacker
 listen_for_clients_preferred_style : true
 
 disqus:
