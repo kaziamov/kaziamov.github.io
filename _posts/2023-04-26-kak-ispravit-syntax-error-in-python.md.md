@@ -1,6 +1,7 @@
 ---
 title: "Как исправить SyntaxError в Python"
 date: 2023-04-26
+layout: post
 ---
 
 # Python ошибка SYNTAX ERROR. Как ИСПРАВИТЬ SyntaxError в ПИТОНЕ

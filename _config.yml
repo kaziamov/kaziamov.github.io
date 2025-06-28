@@ -1,6 +1,7 @@
 theme: minima
 title: Ilia Kaziamov
 author: Ilia Kaziamov
+layout: post
 description: Personal website
 disqus:
   shortname: kaziamov-github-com
