@@ -9,20 +9,42 @@
       <main>
         <h1>{{ page.title }}</h1>
 
-        <p class="description">{{ page.description }}</p>
 
+        {%- if page.description -%}
+        <p class="description">{{ page.description }}</p>
+        {%- endif -%}
+
+
+        {%- if page.task -%}
         <h2>Задание</h2>
         {{ page.task }}
+        {%- endif -%}
 
 
+        {%- if page.youtube -%}
+        <h2>Видео</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        {%- endif -%}
+
+        {%- if page.code -%}
         <h2>Код</h2>
         <a href="{{ page.code }}">{{ page.code }}</a>
+        {%- endif -%}
 
+        {%- if page.youtube -%}
         <h2>Решение</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
+        {%- endif -%}
+
+        {{ content }}
+
+
       </main>
       {%- include ads.html -%}
       {%- include footer.html -%}
