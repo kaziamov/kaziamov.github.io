@@ -34,14 +34,20 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
+
+        <h2>Подсказка</h2>
+        <p>Попробуйте сначала решить задачу самостоятельно, а затем смотрите видео с решением.</p>
+        <p>Для начала можете ставить на паузу и пробовать писать код, до того как полное решение будет показано.</p>
+        <p>Ипровизируйте и предугадывайте, пока это не войдет в привычку</p>
         {%- endif -%}
 
         {{ content }}
 
 
-      </main>
-      {%- include ads.html -%}
-      {%- include footer.html -%}
+
+    </main>
+    {%- include help.html -%}
+    {%- include footer.html -%}
     </div>
   </body>
 </html>
