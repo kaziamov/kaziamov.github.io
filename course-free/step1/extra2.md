@@ -1,8 +1,8 @@
 ---
-title: "Установка питона на виндоус"
+title: "Установка питона на Linux"
 task: "Установить неоходимое ПО"
 code:
-youtube: -hHBn1znfwM
+youtube:
 layout: extra
 comments: true
 ---
