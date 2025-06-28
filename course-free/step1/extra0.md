@@ -1,8 +1,8 @@
 ---
-title: "Задача на модуль"
-task: "Написать первую часть кода"
-code: https://github.com/kaziamov/python-free-course/blob/main/python-basic/0/0_starter.py
+title: "Установка питона на виндоус"
+task: "Установить неоходимое ПО"
+code:
 youtube: -hHBn1znfwM
-layout: lesson
+layout: video
 comments: true
 ---
