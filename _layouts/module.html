@@ -1,0 +1,8 @@
+<ul>
+  {% assign current_dir = page.path | split: '/' | slice: 0, -1 | join: '/' %}
+  {% for p in site.pages %}
+    {% if p.path contains current_dir and p.extname == '.md' and p.path != page.path %}
+      <li><a href="{{ p.url }}">{{ p.title | default: p.path }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
