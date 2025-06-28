@@ -1,6 +1,5 @@
 ---
 title: "Курс по бекенд-разработке на Python"
-layout: default
 comments: true
 ---
 
