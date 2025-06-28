@@ -1,16 +1,18 @@
 title: Home
 author: Ilia Kaziamov
 description:
+lang : ru
 
 remote_theme: b2a3e8/jekyll-theme-console
 style: light
+listen_for_clients_preferred_style : true
 
 disqus:
   shortname: kaziamov-github-com
 
+
 header_pages:
 - course-free/index.md
 
-content_security_policy:
-  child-src: "'self' "
-  frame-src: "https://www.youtube.com/"
+plugins:
+  - disqus-for-jekyll
