@@ -5,7 +5,7 @@ var disqus_config = function () {
 };
 (function() {
     var d = document, s = d.createElement('script');
-    s.src = 'https://kaziamov-github-com.disqus.com/embed.js';
+    s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
 })();
@@ -13,6 +13,3 @@ var disqus_config = function () {
 <noscript>
 Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
 </noscript>
-
-<div id="disqus_thread"></div>
-<script src="https://kaziamov-github-com.disqus.com/disqus.js"></script>

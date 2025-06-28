@@ -8,8 +8,8 @@ style: light
 disqus:
   shortname: kaziamov-github-com
 
-  header_pages:
-  - course-free/index.md
+header_pages:
+- course-free/index.md
 
 content_security_policy:
   child-src: "'self' "
