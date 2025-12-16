@@ -1,0 +1,81 @@
+Day 1 🌵↩️
+
+Today I decided to focus on my routine and plan how I will move from being a full-time employee to becoming a full-time solopreneur. Since I don’t want to give up my developer salary yet, I will work on my own apps in my free time and share the process here on this account. I don’t know how long it will take me to find a niche, build an app, and reach an income of $5k per month.
+
+I also decided to archive all the videos on my channel and start again. While creating my apps, I will probably come across useful information for other developers like me, and I want to share it.
+
+Follow me and feel free to ask questions — I’m always happy to talk with like-minded people
+
+Today I’ve written plan to my next steps, I want to continue my YouTube channel
+
+***
+
+Day 2 🌵↩️
+
+Today I watched several videos on the red platform from different creators who share strategies for choosing niches and approaches to development.
+
+I combined this with my current skills, and I think I will start by choosing the ones that are backend-first. This is my strong side, and I already have professional experience in it. All the videos mentioned “vibe coding” to some extent, and I also joined a few solopreneur chats to see how others are moving along the solo-development path.
+
+The people in those chats, from what I’ve seen, face the same problems that beginner developers usually have. It seems to me that GenAI multiplies a developer’s skills, but only if those skills are not equal to zero.
+
+It’s only been one day, but I feel this post should be a bit longer, because at the very least I should write down some thoughts and notes about what I learned today. I’m planning to set up a blog for this, locally and self-hosted, so I don’t waste an extra ten dollars a month for hosting and because it’s fun.
+
+***
+
+
+Day 3 🌵↩️
+
+Today I created a page on Patreon for everything related to my income and progress on my solopreneur journey. I will keep my blog for technical articles that are only interesting to developers.
+
+I know that success is waiting for me — maybe in 100 days or maybe in 1,000 — and it would be great if I could find like-minded people along the way. The first YouTube videos will come out this weekend, along with the first code for the project.
+
+***
+
+Day 5 🌵↩️
+
+Today I watched a couple of videos where solopreneurs shared their development approaches. The main idea is that you need to control your profit and avoid spending money on infrastructure (expensive cloud servers and subscription services you can live without). This makes sense to me, and I will follow this approach.
+
+The second point that comes from this is the “marketing first” approach, which helps you focus on the product itself. First, you check if there is real demand for the product, and only then you start actual development. The technical part won’t be as difficult for me compared to marketing. I agree with this and will apply it.
+
+The third point is that I will probably need to buy something running macOS. Many apps that would be useful for me exist only for Mac. My Lenovo with Linux, even though I really like it, will only be good for development. For everything else, like promotion and content creation, Mac clearly has better software.
+
+Plan for tomorrow:
+— Write down all the app ideas I have in my head that could be useful for me personally.
+— Then I need to calculate my current expenses to make everything transparent (subscriptions, servers, and so on).
+— Set up a blog and move all my posts from Telegram (where I tried to run a blog). I’ll record this as a video, and maybe this will become my first service. It doesn’t look like too much work (backend, a couple of interface pages, and one integration). But I might be wrong. Anyway, the video will be on YouTube next week
+
+***
+
+Day 7 🌵↩️
+
+Today I wrote down a list of ideas in the category of things that can be automated and turned into a service. I ended up with 18 ideas (the list of ideas and others can be found at the link in the description, because the post has a character limit).
+
+I also created a spreadsheet to track my expenses. For now, my cash flow is negative. Of course, this doesn’t look like typical Instagram content — usually I see posts about 10–50k MRR, but that’s not my case.
+
+The tech stack for my future apps will be similar to what I’ve already worked with:
+FastAPI/Django + PostgreSQL
+Vue.js
+VPS / Self-Hosted RPi Server + Cloudflare + Docker Compose
+
+Technologies for payments, authentication, and email sending are still undecided
+
+***
+
+Day 8 🌵↩️
+
+Consistency is the key. I try not to give up and publish reports every day, although sometimes, like today, I worked overtime and I’m not sure if today is day 8 or 9.
+Actually, I find it hard to understand how my parents worked two or three jobs when I was a child, while I don’t have enough time for work and my own project. In moments like these, I realize that I need to try harder, otherwise I won’t achieve success.
+Tomorrow will be a new day and a new attempt to do everything right
+
+***
+
+Day 10 🌵↩️
+
+Today I wrote the code for first project from  my list. Next step - deploy in public
+
+***
+
+Day 13 🌵↩️
+
+Today I have reinstalled Ubuntu cause it has issues with WiFi which kinda disturbed 
+
