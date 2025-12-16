@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    {%- include head.html -%}
+  </head>
+  <body>
+    <div class="container">
+      {%- include header.html -%}
+      <main>
+        <h1>{{ page.title }}</h1>
+
+        {%- if page.description -%}
+        <p class="description">{{ page.description }}</p>
+        {%- endif -%}
+
+        {{ content }}
+
+      </main>
+      {%- include chat.html -%}
+      {%- include footer.html -%}
+    </div>
+  </body>
+</html>

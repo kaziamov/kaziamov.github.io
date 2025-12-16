@@ -1,1 +1,0 @@
-# kaziamov.github.io

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    {%- include head.html -%}
+  </head>
+  <body>
+    <div class="container">
+      {%- include header.html -%}
+      <main>
+        <h1>{{ page.title }}</h1>
+
+
+        {%- if page.description -%}
+        <p class="description">{{ page.description }}</p>
+        {%- endif -%}
+
+
+        {%- if page.task -%}
+        <h2>Task</h2>
+        {{ page.task }}
+        {%- endif -%}
+
+
+        {%- if page.code -%}
+        <h2>Code</h2>
+        <a href="{{ page.code }}">{{ page.code }}</a>
+
+        {%- endif -%}
+
+
+        {%- if page.youtube -%}
+        <h2>Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.youtube }}" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <h2>Hint</h2>
+        <p>Try to solve the task on your own first, then watch the video with the solution.</p>
+        <p>For starters, you can pause and try to write code before the full solution is shown.</p>
+        <p>Improvise and anticipate, develop your problem solving skill until it becomes a habit</p>
+        {%- endif -%}
+
+        {{ content }}
+
+    </main>
+    {%- include help.html -%}
+    {%- include footer.html -%}
+    </div>
+  </body>
+</html>
