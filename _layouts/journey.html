@@ -8,10 +8,12 @@ layout: default
   <ul>
     {%- assign sorted_journey = site.solo-journey | sort: 'date' | reverse -%}
     {%- for post in sorted_journey -%}
+    {%- unless post.path contains 'index.md' -%}
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
       {{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </li>
+    {%- endunless -%}
     {%- endfor -%}
   </ul>
 {%- endif -%}
