@@ -12,7 +12,7 @@ title: "Course"
 ## Module: Basics
 
 * [Module task](./step1/0)
-* Technical preparation of your computer ([Windows](./step1/extra0), MacOS[](./step1/extra1) or Linux[](./step1/extra2))
+* Technical preparation of your computer ([Windows](./step1/extra0), [MacOS](./step1/extra1) or [Linux](./step1/extra2))
 * [Task solution. Part 1](./step1/1)
     * Lists
     * Dictionaries
