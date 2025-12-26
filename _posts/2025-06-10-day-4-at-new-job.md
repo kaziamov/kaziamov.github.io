@@ -7,10 +7,10 @@ author: Ilia Kaziamov
 tags: [work, development, django]
 ---
 
-Finished the task, simply, because I decided not to complicate things in conditions of incomplete requirements picture. Sent to team lead for review and voiced three variants of how I planned to do it. Eventually, needed to redo it to another voiced variant, rewrote the code and fixed tests in half an hour, but ran into a 500 error from the server, fixed it and sent for review. Got approval and sent the task to testing. Took the next task to work.
+I finished the task simply because I decided not to complicate things given the incomplete requirements picture. I sent it to the team lead for review and voiced three variants of how I planned to do it. Eventually, I needed to redo it to another voiced variant. I rewrote the code and fixed tests in half an hour, but ran into a 500 error from the server. I fixed it and sent for review. I got approval and sent the task to testing. Then I took the next task to work on.
 
-While working on the task, noted that the frontend was written very well and allows dynamically forming data depending on types of incoming data. That is, the frontend doesn't know what fields it will render and expected fields don't appear in the code at all, only their types. Really liked such implementation.
+While working on the task, I noted that the frontend was written very well and allows dynamically forming data depending on types of incoming data. That is, the frontend doesn't know what fields it will render, and expected fields don't appear in the code at all - only their types. I really liked such implementation.
 
-In Python code, encountered such a construction `dict1 |= dict2`, as short writing of `dict1.update(dict2)`. Nice surprise to learn something new. Together with the fact that I'm now actively using Podman and trying work with clusters in GCP, there was a desire to record new training videos for YouTube.
+In the Python code, I encountered such a construction: `dict1 |= dict2`, as a short form of `dict1.update(dict2)`. Nice surprise to learn something new. Together with the fact that I'm now actively using Podman and trying to work with clusters in GCP, I had a desire to record new training videos for YouTube.
 
-Yesterday set up a 4K monitor, which made it comfortable to work. You could say I bought it purely so that PyCharm with all sidebars fits on the screen. That's all for now, keeping you posted.
+Yesterday I set up a 4K monitor, which made it comfortable to work. You could say I bought it purely so that PyCharm with all sidebars fits on the screen. That's all for now, keeping you posted.
