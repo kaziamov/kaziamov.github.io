@@ -17,5 +17,10 @@ header_pages:
 - course-free/index.md
 - solo-journey/index.md
 
+collections:
+  solo-journey:
+    output: true
+    permalink: /solo-journey/:name
+
 plugins:
   - disqus-for-jekyll

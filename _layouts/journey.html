@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{%- if site.solo-journey.size > 0 -%}
+  <ul>
+    {%- assign sorted_journey = site.solo-journey | sort: 'date' | reverse -%}
+    {%- for post in sorted_journey -%}
+    <li>
+      {%- assign date_format = "%Y-%m-%d" -%}
+      {{ post.date | date: date_format }} <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+
+<br />
+<br />
+<br />
+{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == ""  %} <br /> {% endunless %} <!-- add line break if there is any content -->
