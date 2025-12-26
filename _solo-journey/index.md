@@ -1,4 +1,4 @@
 ---
 layout: journey
-title: "Solo Journey"
+title: "solo_dev"
 ---
