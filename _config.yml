@@ -13,6 +13,7 @@ disqus:
 
 header_pages:
 - index.md
+- about.md
 - course-free/index.md
 - solo-journey/index.md
 
