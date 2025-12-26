@@ -14,6 +14,7 @@ disqus:
 header_pages:
 - index.md
 - course-free/index.md
+- solo-journey/index.md
 
 plugins:
   - disqus-for-jekyll
