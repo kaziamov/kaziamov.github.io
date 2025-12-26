@@ -13,4 +13,4 @@ I also decided to archive all the videos on my channel and start again. While cr
 
 Follow me and feel free to ask questions — I'm always happy to talk with like-minded people.
 
-Today I've written plan to my next steps, I want to continue my YouTube channel.
+Today I've written a plan for my next steps. I want to continue my YouTube channel.
